@@ -37,6 +37,11 @@
 
 /* root */
 
+:root {
+  --text: #1BC5BD;
+  --background: : #C9F7F5;
+}
+
 ::-webkit-scrollbar {
 	width: 6px;
 	height: 6px;
