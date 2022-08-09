@@ -8,7 +8,6 @@ Copy any css file alongside Adminer PHP script and rename to <b>adminer.css</b> 
 * @version    4.8.3
 * @date       Sun, 02 May 2022 13:34:06 +0100
 * @author     Joy Kalyan
-* @copyright  Copyright 2019 Joy Kalyan
 * @web        https://joykalyan.guru/
 * @link       https://github.com/joyahm/adminer-clean-skin/
 * @license    MIT: http://mit-license.org/
