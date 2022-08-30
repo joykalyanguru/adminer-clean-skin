@@ -9,7 +9,7 @@ Copy any css file alongside Adminer PHP script and rename to <b>adminer.css</b> 
 * @date       Sun, 02 May 2022 13:34:06 +0100
 * @author     Joy Kalyan
 * @web        https://joykalyan.guru/
-* @link       https://github.com/joyahm/adminer-clean-skin/
+* @link       https://github.com/joykalyanguru/adminer-clean-skin/
 * @license    MIT: http://mit-license.org/
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
