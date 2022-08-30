@@ -847,3 +847,284 @@ select::-ms-expand {
 .footer>div {
 	background: transparent !important
 }
+
+@media (max-width: 991.98px) {
+	body {
+		all: initial!important;
+		all: unset!important;
+		width: calc(99.5vw)!important;
+		display: flex!important;
+		flex-direction: column !important;
+		margin: 0!important;
+		padding: 0!important;
+		justify-content:center!important;
+		color: var(--main-text-color) !important;
+		background: var(--main-bg-color) !important
+	}
+
+	#content {
+		order: 6 !important;
+	}
+
+	#menu {
+		all: initial!important;
+		all: unset!important;
+		order: -1 !important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#menu, #content {
+		width: 95%!important;
+		display: flex!important;
+	    	justify-content: space-between!important;
+		flex-direction: column !important;
+		position: relative!important;
+		margin: .5rem auto!important;
+		padding: 0!important
+	}
+
+@media (max-width: 991.98px) {
+	body {
+		all: initial!important;
+		all: unset!important;
+		width: calc(99.5vw)!important;
+		display: flex!important;
+		flex-direction: column !important;
+		margin: 0!important;
+		padding: 0!important;
+		justify-content:center!important;
+		color: var(--main-text-color) !important;
+		background: var(--main-bg-color) !important
+	}
+
+	#content {
+		order: 6 !important;
+	}
+
+	#menu {
+		all: initial!important;
+		all: unset!important;
+		order: -1 !important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#menu, #content {
+		width: 95%!important;
+		display: flex!important;
+	    justify-content: space-between!important;
+		flex-direction: column !important;
+		position: relative!important;
+		margin: .5rem auto!important;
+		padding: 0!important
+	}
+
+	#breadcrumb {
+		all: initial!important;
+		all: unset!important;
+		padding: 1rem .5rem!important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#breadcrumb a {color: var(--main-success-color) !important;}
+}
+
+@media (max-width: 767.98px) {
+	#menu, #content {
+		width: 90%!important;
+	}
+}
+
+@media (max-width: 575.98px) {
+
+}
+@media (max-width: 991.98px) {
+	body {
+		all: initial!important;
+		all: unset!important;
+		width: calc(99.5vw)!important;
+		display: flex!important;
+		flex-direction: column !important;
+		margin: 0!important;
+		padding: 0!important;
+		justify-content:center!important;
+		color: var(--main-text-color) !important;
+		background: var(--main-bg-color) !important
+	}
+
+	#content {
+		order: 6 !important;
+	}
+
+	#menu {
+		all: initial!important;
+		all: unset!important;
+		order: -1 !important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#menu, #content {
+		width: 95%!important;
+		display: flex!important;
+	    justify-content: space-between!important;
+		flex-direction: column !important;
+		position: relative!important;
+		margin: .5rem auto!important;
+		padding: 0!important
+	}
+
+	#breadcrumb {
+		all: initial!important;
+		all: unset!important;
+		padding: 1rem .5rem!important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#breadcrumb a {color: var(--main-success-color) !important;}
+}
+
+@media (max-width: 767.98px) {
+	#menu, #content {
+		width: 90%!important;
+	}
+}
+
+@media (max-width: 575.98px) {
+
+}
+@media (max-width: 991.98px) {
+	body {
+		all: initial!important;
+		all: unset!important;
+		width: calc(99.5vw)!important;
+		display: flex!important;
+		flex-direction: column !important;
+		margin: 0!important;
+		padding: 0!important;
+		justify-content:center!important;
+		color: var(--main-text-color) !important;
+		background: var(--main-bg-color) !important
+	}
+
+	#content {
+		order: 6 !important;
+	}
+
+	#menu {
+		all: initial!important;
+		all: unset!important;
+		order: -1 !important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#menu, #content {
+		width: 95%!important;
+		display: flex!important;
+	    justify-content: space-between!important;
+		flex-direction: column !important;
+		position: relative!important;
+		margin: .5rem auto!important;
+		padding: 0!important
+	}
+
+	#breadcrumb {
+		all: initial!important;
+		all: unset!important;
+		padding: 1rem .5rem!important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#breadcrumb a {color: var(--main-success-color) !important;}
+}
+
+@media (max-width: 767.98px) {
+	#menu, #content {
+		width: 90%!important;
+	}
+}
+
+@media (max-width: 575.98px) {
+
+}
+@media (max-width: 991.98px) {
+	body {
+		all: initial!important;
+		all: unset!important;
+		width: calc(99.5vw)!important;
+		display: flex!important;
+		flex-direction: column !important;
+		margin: 0!important;
+		padding: 0!important;
+		justify-content:center!important;
+		color: var(--main-text-color) !important;
+		background: var(--main-bg-color) !important
+	}
+
+	#content {
+		order: 6 !important;
+	}
+
+	#menu {
+		all: initial!important;
+		all: unset!important;
+		order: -1 !important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#menu, #content {
+		width: 95%!important;
+		display: flex!important;
+	    justify-content: space-between!important;
+		flex-direction: column !important;
+		position: relative!important;
+		margin: .5rem auto!important;
+		padding: 0!important
+	}
+
+	#breadcrumb {
+		all: initial!important;
+		all: unset!important;
+		padding: 1rem .5rem!important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#breadcrumb a {color: var(--main-success-color) !important;}
+}
+
+@media (max-width: 767.98px) {
+	#menu, #content {
+		width: 90%!important;
+	}
+}
+
+@media (max-width: 575.98px) {
+
+}
+	#breadcrumb {
+		all: initial!important;
+		all: unset!important;
+		padding: 1rem .5rem!important;
+		border-radius: .5rem!important;
+		background-color: var(--secondary-bg-color) !important
+	}
+
+	#breadcrumb a {color: var(--main-success-color) !important;}
+}
+
+@media (max-width: 767.98px) {
+	#menu, #content {
+		width: 90%!important;
+	}
+}
+
+@media (max-width: 575.98px) {
+
+}
