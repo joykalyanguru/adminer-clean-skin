@@ -36,7 +36,7 @@
 /* root */
 
 :root {
-	--main-bg-color: #04557d;
+	--main-bg-color:linear-gradient(90deg, rgba(5, 17, 57, 1) 0%, rgba(2, 68, 79, 1) 33%, rgba(2, 68, 79, 1) 66%, rgba(5, 17, 57, 1) 100%);
 	--secondary-bg-color: rgba(255, 255, 255, 0.1);
 	--hover-bg-color: rgba(255, 255, 255, 0.3);
 	--disable-bg-color: rgba(245, 54, 92, 0.3);
@@ -46,8 +46,8 @@
 	--secondary-text-color: #fff;
 	--main-success-color: #1BC5BD;
 	--light-success-color: rgba(201, 247, 245, .8);
-	--main-info-color: #8950FC;
-	--light-info-color: rgba(238, 229, 255, .8);
+	--main-info-color: #11cdef;
+	--light-info-color: rgba(60, 118, 130, .8);
 	--main-danger-color: #F64E60;
 	--light-danger-color: rgba(255, 226, 229, .8);
 	--main-warning-color: #FFA800;
@@ -58,12 +58,12 @@
 	width: 10px;
 	height: 10px;
 	cursor: pointer !important;
-	background-color: transparent
+	background: transparent
 }
 
 ::-webkit-scrollbar-thumb {
 	border-radius: calc(15px / 2);
-	background-color: rgba(0, 0, 0, .4);
+	background: rgba(0, 0, 0, .4);
 	cursor: pointer !important;
 }
 
@@ -87,7 +87,7 @@ html {
 body {
 	width: 100%;
 	color: var(--main-text-color) !important;
-	background-color: var(--main-bg-color) !important
+	background: var(--main-bg-color) !important
 }
 
 @-ms-viewport {
@@ -308,7 +308,7 @@ code {
 }
 
 .version {
-	color: var(--main-bg-color)
+	color: var(--main-text-color)
 }
 
 .hidden {
@@ -413,7 +413,7 @@ textarea {
 textarea:hover,
 textarea:focus {
 	color: var(--main-text-color);
-	background-color: var(--hover-bg-color);
+	background: var(--hover-bg-color);
 	outline:  0;
 }
 
@@ -432,7 +432,7 @@ table {
 	margin-bottom: 15px;
 	border-radius: .5rem;
 	color: var(--main-text-color) !important;
-	background-color: var(--secondary-bg-color);
+	background: var(--secondary-bg-color);
 	border-collapse: collapse
 }
 
@@ -443,7 +443,7 @@ thead tr td {
 	border-top-right-radius: .5rem;
 	border-top-left-radius: .5rem;
 	color: var(--main-text-color);
-	background-color: var(--secondary-bg-color) !important;
+	background: var(--secondary-bg-color) !important;
 	padding-right: 35px;
 	vertical-align: middle;
 	white-space: nowrap;
@@ -452,7 +452,7 @@ thead tr td {
 
 thead tr th:hover,
 thead tr td:hover {
-	background-color: var(--hover-bg-color) !important;
+	background: var(--hover-bg-color) !important;
 }
 
 thead th a,
@@ -474,7 +474,7 @@ tbody tr:hover th,
 tbody tr:hover td,
 tbody tr.odd:hover th,
 tbody tr.odd:hover td {
-	background-color: var(--secondary-bg-color) !important;
+	background: var(--secondary-bg-color) !important;
 }
 
 tbody th ,
@@ -630,7 +630,7 @@ button:disabled,
 input[type=submit]:disabled,
 input[type=reset]:disabled,
 input[type=button]:disabled {
-	background-color: var(--disable-bg-color);
+	background: var(--disable-bg-color);
 	cursor: not-allowed;
 }
 
@@ -792,7 +792,7 @@ select option {
 select option:hover,
 select option:focus,
 select option:checked {
-	background-color: #495057 !important;
+	background: #495057 !important;
 	box-shadow: none !important
 }
 
@@ -811,7 +811,7 @@ select option:hover:before {
 
 select:focus::-ms-value {
 	color: var(--main-text-color);
-	background-color: var(--hover-bg-color) !important;
+	background: var(--hover-bg-color) !important;
 }
 
 select[multiple],
@@ -823,7 +823,7 @@ select[size]:not([size="1"]) {
 
 select:disabled {
 	color: var(--main-text-color);
-	background-color: var(--disable-bg-color) !important;
+	background: var(--disable-bg-color) !important;
 }
 
 select::-ms-expand {
@@ -840,7 +840,7 @@ select::-ms-expand {
 /* footer */
 
 .footer {
-	background-color: var(--main-bg-color);
+	background: var(--main-bg-color);
 	border: 0 !important
 }
 
@@ -871,7 +871,7 @@ select::-ms-expand {
 		all: unset!important;
 		order: -1 !important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#menu, #content {
@@ -907,7 +907,7 @@ select::-ms-expand {
 		all: unset!important;
 		order: -1 !important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#menu, #content {
@@ -925,7 +925,7 @@ select::-ms-expand {
 		all: unset!important;
 		padding: 1rem .5rem!important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#breadcrumb a {color: var(--main-success-color) !important;}
@@ -963,7 +963,7 @@ select::-ms-expand {
 		all: unset!important;
 		order: -1 !important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#menu, #content {
@@ -981,7 +981,7 @@ select::-ms-expand {
 		all: unset!important;
 		padding: 1rem .5rem!important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#breadcrumb a {color: var(--main-success-color) !important;}
@@ -1019,7 +1019,7 @@ select::-ms-expand {
 		all: unset!important;
 		order: -1 !important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#menu, #content {
@@ -1037,7 +1037,7 @@ select::-ms-expand {
 		all: unset!important;
 		padding: 1rem .5rem!important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#breadcrumb a {color: var(--main-success-color) !important;}
@@ -1075,7 +1075,7 @@ select::-ms-expand {
 		all: unset!important;
 		order: -1 !important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#menu, #content {
@@ -1093,7 +1093,7 @@ select::-ms-expand {
 		all: unset!important;
 		padding: 1rem .5rem!important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#breadcrumb a {color: var(--main-success-color) !important;}
@@ -1113,7 +1113,7 @@ select::-ms-expand {
 		all: unset!important;
 		padding: 1rem .5rem!important;
 		border-radius: .5rem!important;
-		background-color: var(--secondary-bg-color) !important
+		background: var(--secondary-bg-color) !important
 	}
 
 	#breadcrumb a {color: var(--main-success-color) !important;}
